@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+    .footer .top{
+        display: flex;
+        flex-direction: column;
+    }
+     .footer .top .left{
+        width: 100%;
+        border-bottom: 1px solid var(--blue);
+        padding-bottom: 20px;
+     }
+     .footer .top .rightt{
+        width: 100%;
+        border-bottom: 1px solid var(--blue)
+        
+     }
+}

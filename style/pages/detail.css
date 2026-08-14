@@ -1,0 +1,272 @@
+@import url(/style/main.css);
+@import url(/style/media/page/detail-media.css);
+
+
+body {
+    background-color: var(--light-gray);
+}
+
+.kind-words .boxx {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.text-words {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.patients {
+    display: flex;
+    gap: 60px;
+}
+
+.patients .box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.patients .box .name {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.star {
+    display: flex;
+    gap: 8px;
+}
+
+.name img {
+    border-radius: 50%;
+}
+
+.patients .box1 {
+    width: 29%;
+}
+
+.patients .box2 {
+    width: 29%;
+}
+
+.patients .box3 {
+    width: 29%;
+}
+
+.kind-words {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.box-faq {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+
+}
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.faqs .box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0 0 0;
+    border-top: 0.4px solid gray;
+    margin-bottom: 15px;
+    overflow: hidden;
+
+}
+
+.faq-sct {
+    margin-bottom: 120px;
+}
+
+.pay-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.big {
+    font-size: 31px;
+}
+
+.pay-box .left {
+    background: #1BA2BB;
+    background-image: url(/images/back-img1.png);
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap: 40px;
+    border-radius: 12px;
+    width: 47%;
+    border: 2px solid #4ce4ff;
+}
+
+.textt {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.p-textt {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.image {
+    width: 35px;
+}
+
+.pay-box .right {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    padding: 60px;
+    gap: 40px;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.09) 0%, #FFFFFF 56.14%);
+    border-radius: 12px;
+
+}
+
+.hero {
+    background-image: linear-gradient(358deg, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.33) 100%), url(/images/detail-hero.png);
+}
+
+.service-teeth {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.service-teeth .image-box {
+    width: 100%;
+    min-height: 200px;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid white;
+}
+
+.service-teeth .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-teeth .texxt {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.service-teeth .texxt ul {
+    margin-left: 20px;
+}
+
+.get-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.get-box .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-box .bottom .box {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.get-box .bottom .box .image-box {
+    width: 100%;
+    min-height: 150px;
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px solid white;
+}
+
+.get-box .bottom .box .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.get-box .bottom .box .texxt {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dent-cosmetic {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+}
+
+.dent-cosmetic .left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.dent-cosmetic .left .texxt {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.tr {
+    display: none;
+}
+.dent-cosmetic .right {
+    width: 45%;
+}
+
+.dent-cosmetic .right .image-box {
+    width: 100%;
+    min-height: 120px;
+    border: 1px solid white;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.dent-cosmetic .right .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.dent-cosmetic .right .www {
+    background-color: white;
+}
+

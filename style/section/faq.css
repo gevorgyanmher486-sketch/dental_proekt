@@ -1,0 +1,43 @@
+@import url(/style/media/section/faq-media.css);
+.quest {
+    list-style: none;
+    cursor: pointer;
+    padding: 18px;
+    position: relative;
+
+}
+
+.quest::after {
+    content: "+";
+    position: absolute;
+    right: 20px;
+
+}
+
+
+
+
+.faqs .box {
+    transition: 0.3s;
+    max-height: 120px;
+    overflow: hidden;
+}
+.faqs .box .text{
+    margin-left: 20px !important;
+}
+input {
+    width: 0;
+}
+.faqs .box:has(input:checked)  {
+    max-height: 220px;
+    overflow: unset;
+}
+
+.faqs .box:has(input:checked) .tr {
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+.faqs .box:has(input:checked) .quest::after {
+    content: "-";
+}

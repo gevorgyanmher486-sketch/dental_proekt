@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .visit-iframe{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .visit-iframe .box1{
+      width: 100% !important;
+       
+    }
+    .visit-box .visit-iframe .box2{
+        width: 100%;
+    }
+}

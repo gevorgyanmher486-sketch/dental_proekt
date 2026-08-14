@@ -1,0 +1,131 @@
+@import url(/style/main.css);
+@import url(/style/media/page/comfort-media.css);
+
+.hero {
+    background-image: linear-gradient(358deg, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.33) 100%), url(/images/comfort-hero.png);
+}
+body {
+    background-color: var(--light-gray);
+}
+.why-box{
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+.why-box .texxt{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.bxs{
+    display: flex;
+    justify-content: center;
+}
+.sct-commit{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sct-commit .commit{
+    display: flex;
+    gap: 80px;
+}
+.sct-commit .commit .texxt{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 45%;
+}
+.sct-commit .commit .texxt .bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.sct-commit .commit .box{
+    width: 45%;
+    height: 400px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    /* background-image: url(/images/comm.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%; */
+    
+}
+.sct-commit .commit .texxt .bottom ul{
+    margin-left: 25px;
+}
+
+.sct-commit .commit .box img{
+    width: 100%;
+    height: 100%;
+}
+title{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.kind-words .boxx {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.text-words {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.patients {
+    display: flex;
+    gap: 60px;
+}
+
+.patients .box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.patients .box .name {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.star {
+    display: flex;
+    gap: 8px;
+}
+
+.name img {
+    border-radius: 50%;
+}
+
+.patients .box1 {
+    width: 29%;
+}
+
+.patients .box2 {
+    width: 29%;
+}
+
+.patients .box3 {
+    width: 29%;
+}
+.boxik{
+    display: none;
+}
+.kind-words {
+    padding-left: 20px;
+    padding-right: 20px;
+}

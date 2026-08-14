@@ -1,0 +1,59 @@
+@import url(/style/main.css);
+@import url(/style/media/page/price-media.css);
+
+.emergency {
+    margin-top: 120px;
+}
+
+.hero {
+    background-image: linear-gradient(358deg, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.33) 100%), url(/images/price-hero.png);
+
+}
+.bluee{
+    padding: 20px;
+}
+.bluee .price {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bluee .price .box {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+}
+
+.bluee .price .box .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 36%;
+
+}
+
+.bluee .price .box .price-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 53%;
+}
+
+.bluee .price .box .price-list .prices {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+
+.bluee {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+    background-color: var(--blue);
+    background-image: url(/images/back-img1.png);
+
+}

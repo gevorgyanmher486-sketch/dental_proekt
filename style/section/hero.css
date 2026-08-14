@@ -1,0 +1,35 @@
+.hero {
+    width: 100%;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+
+.heroo {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: var(--white);
+}
+
+.heroo .top,
+.heroo .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.div {
+    width: 30%;
+}
+
+.hero .heroo .top {
+    max-width: 600px;
+}

@@ -1,0 +1,16 @@
+@media (max-width:768px) {
+    .pay-sct{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .pay-sct .l{
+        width: 100%;
+    }
+    .pay-box{
+         display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}

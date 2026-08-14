@@ -1,0 +1,87 @@
+@import url(/style/main.css);
+
+.cont {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.border-wht {
+    border: 5px solid white;
+
+}
+
+.visit-box {
+    padding: 0 20px;
+}
+
+.visit-iframe .box1 {
+    border: 3px solid white;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.3) 100%)  !important;
+    border-radius: 12px;
+}
+.booking{
+    margin: 20px;
+    padding: 0 20px;
+}
+.visit-iframe .box2 {
+    border: 3px solid white;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.3) 100%) !important;
+    border-radius: 12px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.l {
+    padding: 60px;
+    gap: 40px;
+    width: 50%;
+
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.pay-sct {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+}
+
+.pay-sct .left {
+    background: linear-gradient(180deg, #198FA5 0%, #1BA2BB 100%);
+    border: 3px solid #1BA2BB;
+    color: white;
+    position: relative;
+}
+
+.pay-sct .l .box {
+    display: flex;
+    justify-content: end;
+}
+
+.pay-sct .left .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pay-sct .left img {
+    width: 35px;
+}
+
+.pay-sct .right {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.09) 0%, #FFFFFF 56.14%);
+}
+
+body {
+    background-color: var(--light-gray);
+}

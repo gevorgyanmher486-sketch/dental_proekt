@@ -1,0 +1,27 @@
+@media (max-width:768px) {
+    .serving{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .serving .left{
+        width: 100% !important;
+    }
+    .serving .right{
+        width: 100% !important;
+    }
+       .reason-sct .bottm {
+        display: flex;
+        flex-direction: column;
+    }
+    .kid {
+        padding: 0 20px !important;
+    }
+     .kid .main{
+        display: flex;
+        justify-content: center;
+    }
+    .kid .main .box{
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,59 @@
+@media (max-width:768px) {
+    .blue-box .car-btn a {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .career-sct .box .carer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .career-sct .box .carer .texxt {
+        width: 100% !important;
+    }
+
+    .career-sct .box .carer .carer-image {
+        width: 100% !important;
+    }
+
+    .dnone {
+        display: block !important;
+    }
+
+    .dblok {
+        display: none !important;
+    }
+
+    .career-sct .box .carer .carer-image img {
+        width: 100% !important;
+        height: 300px !important;
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width:768px) {
+    .meet-team .team {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 24px;
+    }
+}
+
+@media (max-width:655px) {
+    .meet-team .team {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .meet-team .team .box {
+        width: 100% !important;
+    }
+}

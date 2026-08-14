@@ -1,0 +1,21 @@
+@media (max-width:768px) {
+    .sct-commit .commit{
+        display: flex;
+        flex-direction: column;
+    }
+    .sct-commit .commit .box{
+        width: 100% !important;
+    }
+    .boxik{
+        display: block;
+    }
+    .sct-commit .commit .box img{
+        object-fit: cover;
+    }
+    .sct-commit .commit .texxt{
+        width: 100% !important;
+    }
+    .sct-commit .commit  .boxx{
+        display: none;
+    }
+}

@@ -1,0 +1,98 @@
+#main-slider3 {
+    --all-slides: 12;
+    --slides-to-show: 4;
+    --gap: 10px;
+    --content-width: 300px;
+    --slide-width: calc((var(--content-width) - (var(--gap) * (var(--slides-to-show) - 1))) / var(--slides-to-show));
+    display: block;
+    position: relative;
+}
+
+#main-slider3 .slide img {
+    width: 60px;
+    max-height: 50px;
+    transition: 0.3s;
+}
+
+#main-slider3 .slide img:hover {
+    transform: scale(1.5);
+}
+
+#main-slider3.reversed .slider {
+    animation-name: logo-slider3_rev;
+    justify-content: end;
+}
+
+#main-slider3 .slider {
+    display: flex;
+    gap: var(--gap);
+    animation-name: logo-slider3;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo-slider3 {
+    100% {
+        transform: translateX(calc(var(--slide-width) * (var(--all-slides) / -2) - ((var(--all-slides) / 2) * var(--gap))));
+    }
+}
+
+@keyframes logo-slider3_rev {
+    100% {
+        transform: translateX(calc(var(--slide-width) * ((var(--all-slides) / 2) + 1) - (((var(--all-slides) / 2) - 2) * var(--gap))));
+    }
+}
+
+#main-slider3 .slide {
+    min-width: var(--slide-width) !important;
+    padding: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+
+#main-slider3 .slider-wrapper {
+    max-width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+@media (max-width:1020px) {
+    #main-slider {
+        display: none;
+    }
+}
+
+@media (max-width:769px) {
+    #main-slider3 {
+        --slides-to-show: 4;
+    }
+}
+
+#main-slider3 .slider-wrapper::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+    background: #ffffff;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.94) 0%, rgba(255, 255, 255, 0) 40%);
+}
+
+#main-slider3 .slider-wrapper::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: #ffffff;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0) 60%, rgba(255, 255, 255, 0.94) 100%);
+}

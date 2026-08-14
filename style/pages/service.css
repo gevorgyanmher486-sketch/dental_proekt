@@ -1,0 +1,320 @@
+@import url(/style/main.css);
+@import url(/style/media/page/service-media.css);
+
+
+body {
+    background-color: var(--light-gray);
+}
+
+.kind-words .boxx {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.text-words {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.patients {
+    display: flex;
+    gap: 60px;
+}
+
+.patients .box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.patients .box .name {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.star {
+    display: flex;
+    gap: 8px;
+}
+
+.name img {
+    border-radius: 50%;
+}
+
+.patients .box1 {
+    width: 29%;
+}
+
+.patients .box2 {
+    width: 29%;
+}
+
+.patients .box3 {
+    width: 29%;
+}
+
+.kind-words {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero {
+    background-image: linear-gradient(358deg, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.33) 100%), url(/images/service-hero.png);
+}
+
+.box-cosmetic {
+    display: flex;
+    flex-direction: column;
+    max-width: 720px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.box-cosmetic .texxt {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.box-cosmetic .box-image {
+    width: 100%;
+    padding: 16px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.box-cosmetic .box-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.grey {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.grey .boxx {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+}
+
+.grey .boxx .left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.grey .boxx .left .texxt {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.grey .boxx .right {
+    width: 45%;
+    background-color: white;
+    min-height: 400px;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.grey .boxx .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cosmetic {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.cosmetic .top {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cosmetic .bottom {
+
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.cosmetic .bottom .box {
+    background-color: white;
+    min-height: 495px;
+    border-radius: 12px;
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.cosmetic .bottom .box .texxt {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.cosmetic .bottom .box .teext {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.blue-a {
+    color: var(--blue);
+    border-bottom: 1px solid;
+    width: fit-content;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.integrity {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+}
+
+.integrity .left {
+    width: 33%;
+}
+
+.integrity .right {
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.integrity .right .teext {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.integrity .right .image-box {
+    width: 100%;
+    min-height: 320px;
+    border-radius: 12px;
+    border: 1px solid white;
+    padding: 16px;
+}
+
+.integrity .right .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.bott {
+    margin-bottom: 60px;
+
+}
+
+.bott .box {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.bott .box .bottom {
+    display: flex;
+    gap: 80px;
+}
+
+.bott .box .bottom .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.bott .box .bottom .left .texxt {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.bott .box .bottom .left .image-box {
+    width: 100%;
+    min-height: 360px;
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px solid white;
+}
+
+.bott .box .bottom .left .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.partt {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.partt .box {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.partt .box .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.partt .box .bottom .boxx {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.partt .box .bottom .boxx img {
+    width: 40px;
+    height: 55px;
+    margin-left: 10px;
+}
+
+.partt .box .bottom .boxx .texxt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+

@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+
+    .heading .right {
+       display: none;
+
+    } 
+
+    .hamburger {
+        display: block;
+    }
+
+
+}
+@media  {
+    
+}

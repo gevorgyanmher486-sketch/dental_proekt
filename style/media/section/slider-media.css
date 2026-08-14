@@ -1,0 +1,15 @@
+@media (max-width:1220px) {
+    .sct-slider {
+        --content-width: 100% !important;
+    }
+
+    #main-slider {
+        --content-width: 100% !important;
+    }
+}
+
+@media (max-width:700px) {
+    .sct-slider {
+        --slides-to-show: 2;
+    }
+}

@@ -1,0 +1,255 @@
+@import url(/style/main.css);
+@import url(/style/media/page/apoin-media.css);
+
+
+.kind-words .boxx {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.text-words {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.patients {
+    display: flex;
+    gap: 60px;
+}
+
+.patients .box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.patients .box .name {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.star {
+    display: flex;
+    gap: 8px;
+}
+
+.name img {
+    border-radius: 50%;
+}
+
+.patients .box1 {
+    width: 29%;
+}
+
+.patients .box2 {
+    width: 29%;
+}
+
+.patients .box3 {
+    width: 29%;
+}
+
+.kind-words {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+.kid {
+    background-image: linear-gradient(180deg, #F1F2F2 0%, rgba(241, 242, 242, 0) 50%),
+        url(/images/kid-png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 280px;
+    padding-bottom: 100px;
+    width: 100%;
+    padding: 300px 120px 20px;
+}
+
+.kid .box {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap: 40px;
+    width: 50%;
+    min-width: none;
+    min-height: 367px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.3) 100%);
+    border-radius: 20px;
+
+}
+
+.kid .main {
+    display: flex;
+    justify-content: end;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grey {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.grey .boxx {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+}
+
+.grey .boxx .left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.grey .boxx .left .texxt {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.grey .boxx .right {
+    width: 45%;
+    background-color: white;
+    min-height: 400px;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.grey .boxx .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.partt {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.partt .box {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.partt .box .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.partt .box .bottom .boxx {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.partt .box .bottom .boxx img {
+    width: 40px;
+    height: 55px;
+    margin-left: 10px;
+}
+
+.partt .box .bottom .boxx .texxt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box-faq {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.faqs .box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0 0 0;
+    border-top: 0.4px solid gray;
+}
+
+.faq-sct {
+    margin-bottom: 120px;
+}
+
+.hero {
+    background-image: linear-gradient(358deg, rgba(0, 0, 0, 0.25) 100%, rgba(0, 0, 0, 0.33) 100%), url(/images/apoin-hero.png  );
+}
+
+.visit-sct {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+}
+
+.visit-sct .left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 60px;
+}
+
+.visit-sct .left .image-box {
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.visit-sct .left .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.visit-sct .right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 40px;
+}
+
+.visit-sct .right .box {
+    display: flex;
+    gap: 16px;
+}
+
+.visit-sct .right .box .texxt {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.visit-sct .right .box img {
+    width: 40px;
+}
+

@@ -1,0 +1,13 @@
+ @media (max-width:768px) {
+         .box-faq {
+                 display: flex;
+                 flex-direction: column;
+                 gap: 0;
+                 gap: 40px;
+         }
+
+         .faqs .box:has(input:checked) {
+                 max-height: 370px !important;
+                 overflow: unset !important;
+         }
+ }

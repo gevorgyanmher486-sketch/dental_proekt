@@ -1,0 +1,11 @@
+@media (max-width:768px) {
+    .kind-words .boxx .patients {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .kind-words .boxx .patients .box {
+        width: 100%;
+    }
+}

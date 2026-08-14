@@ -1,0 +1,28 @@
+@media (max-width:768px) {
+    .carer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carer .texxt {
+        width: 100% !important;
+    }
+
+    .carer .bxx {
+        width: 100%;
+    }
+    .carer .bxx .carer-image{
+        height: 300px !important;
+    }
+        .dnone {
+        display: block !important;
+    }
+    .dblok{
+        display: none !important;
+    }
+    .carer .bxx img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

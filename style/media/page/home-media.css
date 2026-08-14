@@ -1,0 +1,137 @@
+@media (max-width: 768px) {
+    .revews {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .revews .left {
+        width: 100% !important;
+    }
+
+    .revews .right {
+        width: 100% !important;
+        display: flex;
+        flex-direction: row;
+        min-height: 130px !important;
+    }
+
+    .revews .right .img-box {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .img-box img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .slid-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slid-box .image-box {
+        width: 100% !important;
+    }
+
+    .slid-box .text {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .dent-comp .bott {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dent-comp .bott .box {
+        width: 100% !important;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .dent-comp .bott .box .txtt {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+  
+     .dent-comp .bott .box img {
+        height: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .reason-sct .bottm {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .kid {
+        padding: 0 20px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-rewiew .col3 {
+        display: none !important;
+    }
+}
+ul{
+    margin-left: 15px;
+}
+.tr{
+    display: none;
+}
+@media (max-width: 768px) {
+    .dr-brendan-sct {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .tr{
+        display: block;
+        width: 100% !important;
+    }
+    .tr img{
+        width: 100% !important; 
+    }
+    .rt{
+        display: none;
+    }
+    .dr-brendan-sct .right {
+        width: 100% !important;
+        height: 700px !important;
+        object-fit: cover;
+        padding: 16px;
+        border-radius: 12px;
+        border: 1px solid white;
+    }
+    .dr-brendan-sct .left{
+        width: 100% !important;
+    }
+    .kid .main{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .kid .main .box{
+        width: 100% !important;
+    }
+}
+@media (max-width:550px) {
+    .dent-comp .bott .box img {
+        height: 100% !important;
+        width: 100% !important;
+    }
+  
+}

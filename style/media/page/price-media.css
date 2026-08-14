@@ -1,0 +1,14 @@
+
+@media (max-width:768px) {
+    .bluee .price .box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .bluee .price .box .text{
+        width: 100% !important;
+    }
+    .bluee .price .box .price-list{
+        width: 100% !important;
+    }
+}

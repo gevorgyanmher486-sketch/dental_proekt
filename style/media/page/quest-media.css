@@ -1,0 +1,30 @@
+@media (max-width:768px) {
+    .carer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carer .bxx {
+        display: flex;
+        justify-content: center;
+    }
+    .carer .text{
+        width: 100% !important;
+    }
+    .pay-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pay-box .left {
+        width: 100% !important;
+    }
+
+    .pay-box .right {
+        width: 100% !important;
+    }
+
+   
+}
+
