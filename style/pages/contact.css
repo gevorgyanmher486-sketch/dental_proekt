@@ -17,7 +17,11 @@ h1 {
 .visit-box {
     padding: 0 20px;
 }
-
+@media (max-width:480px) {
+    .booking{
+        padding: 0 !important;
+    }
+}
 .visit-iframe .box1 {
     border: 3px solid white;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.3) 100%)  !important;
